@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911496AF540D5F0E1D4C741F /* Pods_RandomizerWithCoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E41AD4A2968B7EFAC26433 /* Pods_RandomizerWithCoreData.framework */; };
+		CB5CA3D7245611F70048E053 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CA3D6245611F70048E053 /* LoginViewController.swift */; };
 		CB74EF87243F3D8A00BF1CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74EF86243F3D8A00BF1CEE /* AppDelegate.swift */; };
 		CB74EF89243F3D8A00BF1CEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74EF88243F3D8A00BF1CEE /* SceneDelegate.swift */; };
-		CB74EF8B243F3D8A00BF1CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74EF8A243F3D8A00BF1CEE /* ViewController.swift */; };
+		CB74EF8B243F3D8A00BF1CEE /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74EF8A243F3D8A00BF1CEE /* GeneralViewController.swift */; };
 		CB74EF8E243F3D8A00BF1CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB74EF8C243F3D8A00BF1CEE /* Main.storyboard */; };
 		CB74EF91243F3D8A00BF1CEE /* RandomizerWithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB74EF8F243F3D8A00BF1CEE /* RandomizerWithCoreData.xcdatamodeld */; };
 		CB74EF93243F3D8C00BF1CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB74EF92243F3D8C00BF1CEE /* Assets.xcassets */; };
 		CB74EF96243F3D8C00BF1CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB74EF94243F3D8C00BF1CEE /* LaunchScreen.storyboard */; };
+		CBDD55392456424E00454C2B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD55382456424E00454C2B /* RegisterViewController.swift */; };
+		CBDD553B245644F000454C2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBDD553A245644F000454C2B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01701EE56ADB6AC111AB30FF /* Pods-RandomizerWithCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomizerWithCoreData.debug.xcconfig"; path = "Target Support Files/Pods-RandomizerWithCoreData/Pods-RandomizerWithCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5CA3D6245611F70048E053 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CB74EF83243F3D8A00BF1CEE /* RandomizerWithCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomizerWithCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB74EF86243F3D8A00BF1CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB74EF88243F3D8A00BF1CEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB74EF8A243F3D8A00BF1CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		CB74EF8A243F3D8A00BF1CEE /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		CB74EF8D243F3D8A00BF1CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB74EF90243F3D8A00BF1CEE /* RandomizerWithCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomizerWithCoreData.xcdatamodel; sourceTree = "<group>"; };
 		CB74EF92243F3D8C00BF1CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB74EF95243F3D8C00BF1CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB74EF97243F3D8C00BF1CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBDD55382456424E00454C2B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CBDD553A245644F000454C2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E8E41AD4A2968B7EFAC26433 /* Pods_RandomizerWithCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomizerWithCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5B9FDC54187FE8B9729AA8 /* Pods-RandomizerWithCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomizerWithCoreData.release.xcconfig"; path = "Target Support Files/Pods-RandomizerWithCoreData/Pods-RandomizerWithCoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911496AF540D5F0E1D4C741F /* Pods_RandomizerWithCoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76D2DB874A58E6BAB39027F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01701EE56ADB6AC111AB30FF /* Pods-RandomizerWithCoreData.debug.xcconfig */,
+				FA5B9FDC54187FE8B9729AA8 /* Pods-RandomizerWithCoreData.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90B90F171186E555242CD891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8E41AD4A2968B7EFAC26433 /* Pods_RandomizerWithCoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB48573F244F21F30006AD20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB74EF8A243F3D8A00BF1CEE /* GeneralViewController.swift */,
+				CB5CA3D6245611F70048E053 /* LoginViewController.swift */,
+				CBDD55382456424E00454C2B /* RegisterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		CB74EF7A243F3D8A00BF1CEE = {
 			isa = PBXGroup;
 			children = (
 				CB74EF85243F3D8A00BF1CEE /* RandomizerWithCoreData */,
 				CB74EF84243F3D8A00BF1CEE /* Products */,
+				76D2DB874A58E6BAB39027F2 /* Pods */,
+				90B90F171186E555242CD891 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +100,12 @@
 			children = (
 				CB74EF86243F3D8A00BF1CEE /* AppDelegate.swift */,
 				CB74EF88243F3D8A00BF1CEE /* SceneDelegate.swift */,
-				CB74EF8A243F3D8A00BF1CEE /* ViewController.swift */,
+				CB48573F244F21F30006AD20 /* Controllers */,
 				CB74EF8C243F3D8A00BF1CEE /* Main.storyboard */,
 				CB74EF92243F3D8C00BF1CEE /* Assets.xcassets */,
 				CB74EF94243F3D8C00BF1CEE /* LaunchScreen.storyboard */,
 				CB74EF97243F3D8C00BF1CEE /* Info.plist */,
+				CBDD553A245644F000454C2B /* GoogleService-Info.plist */,
 				CB74EF8F243F3D8A00BF1CEE /* RandomizerWithCoreData.xcdatamodeld */,
 			);
 			path = RandomizerWithCoreData;
@@ -77,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB74EF9A243F3D8C00BF1CEE /* Build configuration list for PBXNativeTarget "RandomizerWithCoreData" */;
 			buildPhases = (
+				CA1C84E57EF07319EC5EBE8A /* [CP] Check Pods Manifest.lock */,
 				CB74EF7F243F3D8A00BF1CEE /* Sources */,
 				CB74EF80243F3D8A00BF1CEE /* Frameworks */,
 				CB74EF81243F3D8A00BF1CEE /* Resources */,
+				271E1BA9706B5B02842505F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,19 +173,64 @@
 			files = (
 				CB74EF96243F3D8C00BF1CEE /* LaunchScreen.storyboard in Resources */,
 				CB74EF93243F3D8C00BF1CEE /* Assets.xcassets in Resources */,
+				CBDD553B245644F000454C2B /* GoogleService-Info.plist in Resources */,
 				CB74EF8E243F3D8A00BF1CEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		271E1BA9706B5B02842505F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomizerWithCoreData/Pods-RandomizerWithCoreData-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomizerWithCoreData/Pods-RandomizerWithCoreData-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RandomizerWithCoreData/Pods-RandomizerWithCoreData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1C84E57EF07319EC5EBE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomizerWithCoreData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB74EF7F243F3D8A00BF1CEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB74EF8B243F3D8A00BF1CEE /* ViewController.swift in Sources */,
+				CB74EF8B243F3D8A00BF1CEE /* GeneralViewController.swift in Sources */,
+				CB5CA3D7245611F70048E053 /* LoginViewController.swift in Sources */,
 				CB74EF91243F3D8A00BF1CEE /* RandomizerWithCoreData.xcdatamodeld in Sources */,
+				CBDD55392456424E00454C2B /* RegisterViewController.swift in Sources */,
 				CB74EF87243F3D8A00BF1CEE /* AppDelegate.swift in Sources */,
 				CB74EF89243F3D8A00BF1CEE /* SceneDelegate.swift in Sources */,
 			);
@@ -286,11 +374,11 @@
 		};
 		CB74EF9B243F3D8C00BF1CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01701EE56ADB6AC111AB30FF /* Pods-RandomizerWithCoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Y4YT75U8C;
 				INFOPLIST_FILE = RandomizerWithCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +392,11 @@
 		};
 		CB74EF9C243F3D8C00BF1CEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5B9FDC54187FE8B9729AA8 /* Pods-RandomizerWithCoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3Y4YT75U8C;
 				INFOPLIST_FILE = RandomizerWithCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

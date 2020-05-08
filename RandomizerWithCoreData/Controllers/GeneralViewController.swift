@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Locksmith
 
-class ViewController: UIViewController {
+class GeneralViewController: UIViewController {
 
     @IBOutlet weak var increaseStepper : UIStepper!
     @IBOutlet weak var resultLabel: UILabel!
@@ -16,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var textFieldFrom: UITextField!
     @IBOutlet weak var textFieldTo: UITextField!
     @IBOutlet weak var actionButton: UIButton!
+    
+     // MARK: - viewDidLoad
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,14 +55,13 @@ class ViewController: UIViewController {
         increaseStepper.maximumValue = 30
         increaseStepper.stepValue = 2
         
-        
-        
         navigationController?.navigationBar.barTintColor = .systemGray2
         navigationItem.title = "Random numbers"
         
 //        navigationController?.title = "Random numbers"
     }
  
+    // MARK: - Functional
     @IBAction func countActionButton(_ sender: UIButton) {
        
         let lowestvValue: Int = Int(textFieldFrom.text!) ?? -1
@@ -88,7 +90,7 @@ class ViewController: UIViewController {
         
     }
     
-    
+    // MARK: - Stepper
     @IBAction func increaseStepperAction(_ sender: UIStepper) {
         let font = resultLabel.font?.fontName
         let fontSize = CGFloat (sender.value)
@@ -96,9 +98,22 @@ class ViewController: UIViewController {
         resultLabel.font = UIFont(name: font!, size: fontSize)
     }
     
+    // MARK: - Sign out
+      @IBAction func signOutTapped(_ sender: UIBarButtonItem) {
+          do {
+              try Locksmith.deleteDataForUserAccount(userAccount: "MyAccount")
+          } catch {
+                                                                                          // прописать ошибки!
+          }
+          performSegue(withIdentifier: "goLogin", sender: nil)
+      }
+      
+    // MARK: - Override touchesBegan
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+   
+    
     
 //    override func viewDidAppear(_ animated: Bool) {
 //        let navigationBar = self.navigationController?.navigationBar
